@@ -1,0 +1,19 @@
+this chat web site construction details for myself
+
+create a folder chatsmitha
+cd chatsmitha //change directory to chatSmitha in terminal
+npm init   //creates json file in terminal
+npm install express --save   //installs express package, created node-module folder
+npm socket.io --save  //installs socket package inside folder node-module and saves it as a dependency on json file
+
+create seerver.js file
+create public folder
+create index.html inside public
+type html then press tab inside index.html, fills the html form
+
+change main: index.js to main: app.js on package.json sendfile
+
+node app  //terminal command to start app.js server file
+ctrl+C  //terminal command to quit running app.js server file
+
+chat.uzkino.com port:80     //change host : port on app file
