@@ -23,7 +23,7 @@ io.on('connection', function(socket) {
         if(data in usersNames) { callback(false); }
         else {
           callback(true);
-          	// we store the username in the socket session for this client
+          // we store the username in the socket session for this client
           socket.userName = data
           // add the client's username to the global list
           usersNames[socket.userName] = socket;  //userName is key : socket

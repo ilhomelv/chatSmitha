@@ -78,7 +78,7 @@ msg.addEventListener('keypress', function(){
     socket.emit('typing message', userNameInput.value);
 });
 
-//message output
+//message outputs
 socket.on('new message', function(data){
   console.log("From: " +data.sender);
   console.log("To: " +data.client);
