@@ -73,6 +73,7 @@ function sendMessageToUser(client) {
 }
 
 
+
 //add event listener on msg typing
 msg.addEventListener('keypress', function(){
     socket.emit('typing message', userNameInput.value);

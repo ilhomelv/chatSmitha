@@ -59,8 +59,6 @@ io.on('connection', function(socket) {
 
 
 
-
-
 /*
     //user sends message from clientside
     socket.on('send message', function(data){
